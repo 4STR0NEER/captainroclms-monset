@@ -8,7 +8,7 @@
   --color-foam: #eaf4f2; /* page background */
   --color-lagoon: #13716f; /* primary actions and links (5.8:1 on white) */
   --color-doubloon: #f2b53a; /* rewards only, never text on light */
-  --color-buoy: #c8323f; /* locked, errors, live timer (5.3:1 on white) */
+  --color-buoy: #d93f4c; /* locked, errors, live timer. Icons, fills and borders only: 4.4:1 is too low for small text */
   --color-key: #ffffff; /* cards and the lesson surface */
 
   /* Tints of the tokens above, not new colours */
@@ -150,8 +150,19 @@
     transform: translateY(-5px) rotate(-3deg);
   }
 }
+/* Practice timer wheel turns while the clock runs */
+.ship-wheel.is-turning {
+  animation: wheel-turn 6s linear infinite;
+}
+@keyframes wheel-turn {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .island-map .ship-bob {
+  .island-map .ship-bob,
+  .ship-wheel.is-turning {
     animation: none;
   }
 }

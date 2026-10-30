@@ -1,3 +1,4 @@
+import { localIso } from '../utils/dates'
 import { insert, select, selectOne } from './db'
 
 export function getUser(id) {
@@ -25,5 +26,5 @@ export function getTutorNotes(studentId) {
 }
 
 export function addTutorNote({ studentId, tutorId, body }) {
-  return insert('tutorNotes', { studentId, tutorId, body, date: new Date().toISOString().slice(0, 10) })
+  return insert('tutorNotes', { studentId, tutorId, body, date: localIso() })
 }

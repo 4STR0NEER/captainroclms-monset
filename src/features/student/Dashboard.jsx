@@ -54,7 +54,7 @@ export default function Dashboard() {
           {islands.map((i) => (
             <li key={i.id}>
               <Link to={`/app/island/${i.slug}`} className="flex min-h-16 items-center gap-4 px-5 py-4 text-deep no-underline transition-colors hover:bg-foam">
-                <span aria-hidden className="size-4 shrink-0 rounded-full" style={{ background: i.state === 'locked' ? '#5b7088' : i.themeColour }} />
+                <span aria-hidden className="size-4 shrink-0 rounded-full" style={{ background: i.state === 'locked' ? '#46607a' : i.themeColour }} />
                 <span className="flex-1">
                   <span className="block font-bold">{i.name}</span>
                   {i.lessonCount > 0 && (

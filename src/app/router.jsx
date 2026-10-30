@@ -14,6 +14,10 @@ import Contact from '../features/public/Contact'
 import Privacy from '../features/public/Privacy'
 import Dashboard from '../features/student/Dashboard'
 import IslandDetail from '../features/student/IslandDetail'
+import LessonPlayer from '../features/student/LessonPlayer'
+import PracticeLog from '../features/student/PracticeLog'
+import Songbook from '../features/student/Songbook'
+import Badges from '../features/student/Badges'
 
 // Pages not built yet render <ComingSoon>; each phase swaps a stub for the real page.
 const soon = (title, phase) => <ComingSoon title={title} phase={phase} />
@@ -42,10 +46,10 @@ export const router = createBrowserRouter([
         children: [
           { path: '/app', element: <Dashboard /> },
           { path: '/app/island/:slug', element: <IslandDetail /> },
-          { path: '/app/lesson/:id', element: soon('Lesson', 4) },
-          { path: '/app/practice', element: soon('Practice log', 4) },
-          { path: '/app/songbook', element: soon('Songbook', 4) },
-          { path: '/app/badges', element: soon('Badges', 4) },
+          { path: '/app/lesson/:id', element: <LessonPlayer /> },
+          { path: '/app/practice', element: <PracticeLog /> },
+          { path: '/app/songbook', element: <Songbook /> },
+          { path: '/app/badges', element: <Badges /> },
         ],
       },
       {

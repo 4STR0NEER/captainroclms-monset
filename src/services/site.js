@@ -1,3 +1,4 @@
+import { localIso } from '../utils/dates'
 import { insert, select, selectOne } from './db'
 
 export async function getPosts() {
@@ -13,9 +14,9 @@ export function getTestimonials() {
 }
 
 export function submitExamInterest(form) {
-  return insert('examInterest', { ...form, status: 'new', createdAt: new Date().toISOString().slice(0, 10) })
+  return insert('examInterest', { ...form, status: 'new', createdAt: localIso() })
 }
 
 export function submitContact(form) {
-  return insert('contactMessages', { ...form, createdAt: new Date().toISOString().slice(0, 10) })
+  return insert('contactMessages', { ...form, createdAt: localIso() })
 }

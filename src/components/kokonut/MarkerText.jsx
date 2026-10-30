@@ -7,9 +7,9 @@ const cn = (...classes) => classes.filter(Boolean).join(" ");
 const DEFAULT_COLOR = {
 	highlight: "#f2b53a",
 	underline: "#13716f",
-	circle: "#c8323f",
+	circle: "#d93f4c",
 	box: "#13716f",
-	strike: "#c8323f"
+	strike: "#d93f4c"
 };
 // How fast the pen travels, in px per ms. A hand slows down on long strokes,
 // so durations are clamped rather than strictly proportional.

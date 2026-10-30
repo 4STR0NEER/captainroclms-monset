@@ -5,7 +5,7 @@
     "name": "Melody Island",
     "description": "Where every voyage begins. Eight modules across two books take you from your first notes to playing songs with both hands.",
     "order": 1,
-    "themeColour": "#2E9C8A",
+    "themeColour": "#13716F",
     "icon": "music",
     "accessTier": "free"
   },
@@ -15,7 +15,7 @@
     "name": "Harmony Island",
     "description": "Chords and harmony. Learn how songs are built and start reading chord symbols like a real band pianist.",
     "order": 2,
-    "themeColour": "#5A7BD8",
+    "themeColour": "#46607A",
     "icon": "layers",
     "accessTier": "home"
   },
@@ -25,7 +25,7 @@
     "name": "Notation Island",
     "description": "The basics of reading music: bars, notes, octaves and the grand staff.",
     "order": 3,
-    "themeColour": "#C9894B",
+    "themeColour": "#5FA3A1",
     "icon": "file-music",
     "accessTier": "home"
   },
@@ -35,7 +35,7 @@
     "name": "Island of Music Fundamentals",
     "description": "Intervals, scales and chords, the maps, skills and awareness to navigate any song. Rumour has it a Jungle of Scales lies further inland.",
     "order": 4,
-    "themeColour": "#7C9A3D",
+    "themeColour": "#0D5654",
     "icon": "compass",
     "accessTier": "home"
   },
@@ -45,7 +45,7 @@
     "name": "Songbook Island",
     "description": "A growing library of pop, jazz, film and classical pieces to play for fun.",
     "order": 5,
-    "themeColour": "#D46A8C",
+    "themeColour": "#D93F4C",
     "icon": "book-open",
     "accessTier": "taster"
   },
@@ -55,7 +55,7 @@
     "name": "Captain's TV Themes",
     "description": "Fun theme tunes from television, arranged for young players.",
     "order": 6,
-    "themeColour": "#E08A2E",
+    "themeColour": "#F7D58A",
     "icon": "tv",
     "accessTier": "taster"
   },
@@ -65,7 +65,7 @@
     "name": "Captain Roc's Practice Cave",
     "description": "Warm-ups, finger exercises and practice material to keep your hands in shape.",
     "order": 7,
-    "themeColour": "#6B5B95",
+    "themeColour": "#E8838B",
     "icon": "mountain",
     "accessTier": "taster"
   },
@@ -75,7 +75,7 @@
     "name": "Exam Island",
     "description": "Preparation for the ABRSM Jazz Piano exams: scales, songs, quick studies and aural tests. Exams are optional, and always an adventure.",
     "order": 8,
-    "themeColour": "#B8433F",
+    "themeColour": "#F2B53A",
     "icon": "award",
     "accessTier": "member"
   }

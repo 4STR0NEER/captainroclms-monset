@@ -12,9 +12,9 @@ const BADGES = {
   'in progress': { icon: Compass, label: 'In progress', className: 'bg-lagoon/10 text-lagoon' },
   'not started': { icon: Circle, label: 'Not started', className: 'bg-deep/5 text-deep-soft' },
   open: { icon: Compass, label: 'Open', className: 'bg-lagoon/10 text-lagoon' },
-  locked: { icon: Lock, label: 'Locked', className: 'bg-buoy/10 text-buoy' },
-  'locked-tier': { icon: Lock, label: 'Locked', className: 'bg-buoy/10 text-buoy' },
-  'locked-path': { icon: Lock, label: 'Locked', className: 'bg-buoy/10 text-buoy' },
+  locked: { icon: Lock, label: 'Locked', className: 'bg-buoy/15 text-deep [&>svg]:text-buoy' },
+  'locked-tier': { icon: Lock, label: 'Locked', className: 'bg-buoy/15 text-deep [&>svg]:text-buoy' },
+  'locked-path': { icon: Lock, label: 'Locked', className: 'bg-buoy/15 text-deep [&>svg]:text-buoy' },
 }
 
 export function StateBadge({ state }) {
@@ -53,7 +53,7 @@ export default function IslandDetail() {
 
   return (
     <div>
-      <header style={{ '--island': island.state === 'locked' ? '#5b7088' : island.themeColour }} className="border-b border-line bg-[color-mix(in_srgb,var(--island)_14%,var(--color-foam))]">
+      <header style={{ '--island': island.state === 'locked' ? '#46607a' : island.themeColour }} className="border-b border-line bg-[color-mix(in_srgb,var(--island)_14%,var(--color-foam))]">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
           <Link to="/app" className="font-bold text-lagoon">
             Back to the map

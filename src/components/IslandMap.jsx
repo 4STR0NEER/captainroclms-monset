@@ -21,7 +21,22 @@ const LAYOUT = {
 
 const ICONS = { music: Music, layers: Layers, 'file-music': FileMusic, compass: Compass, 'book-open': BookOpen, tv: Tv, mountain: Mountain, award: Award }
 
-const LOCKED_LAND = '#5b7088'
+// Palette only: tokens and their tints
+const DEEP = '#0e2a47'
+const LOCKED_LAND = '#46607a' // deep-soft
+const LOCKED_RIM = '#8a9bad' // deep-soft tint
+const SAND = '#f7dfa3' // doubloon tint
+
+// Light islands get dark icons so the icon stays visible
+function isLight(hex) {
+  const [r, g, b] = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16))
+  return 0.299 * r + 0.587 * g + 0.114 * b > 160
+}
+
+// Wave marks scattered on open water
+const WAVES = [
+  [120, 270], [600, 60], [700, 400], [930, 330], [400, 560], [290, 520], [960, 560], [80, 590],
+]
 
 // Deterministic random so coastlines look hand drawn but never change between renders
 function seeded(seed) {
@@ -124,7 +139,7 @@ export default function IslandMap({ islands, currentSlug }) {
               <path d="M0 0V10" stroke="#eaf4f2" strokeOpacity="0.35" strokeWidth="3" />
             </pattern>
             <radialGradient id="sea-glow" cx="40%" cy="45%" r="70%">
-              <stop offset="0" stopColor="#1b4a6e" />
+              <stop offset="0" stopColor="#1b4a6e" /> {/* deep, lifted */}
               <stop offset="1" stopColor="#0e2a47" />
             </radialGradient>
           </defs>
@@ -137,6 +152,12 @@ export default function IslandMap({ islands, currentSlug }) {
               <text key={i} x={s.x} y={s.y} textAnchor="middle">
                 {s.n}
               </text>
+            ))}
+          </g>
+
+          <g aria-hidden fill="none" stroke="#eaf4f2" strokeOpacity="0.3" strokeWidth="2.5" strokeLinecap="round">
+            {WAVES.map(([wx, wy], i) => (
+              <path key={i} d={`M${wx - 18} ${wy} q9 -8 18 0 t18 0`} />
             ))}
           </g>
 
@@ -175,11 +196,12 @@ export default function IslandMap({ islands, currentSlug }) {
                 <g className="island-pop">
                   <path d={coastline(x, y, r * 1.45, seed)} fill="#eaf4f2" fillOpacity="0.1" />
                   <g className="island-land">
-                    <path d={coastline(x, y, r * 1.12, seed)} fill={locked ? '#8d9aaa' : '#f4dfa6'} />
+                    <path d={coastline(x, y, r * 1.12, seed)} fill={locked ? LOCKED_RIM : SAND} />
                     <path d={coastline(x, y, r, seed)} fill={locked ? LOCKED_LAND : island.themeColour} />
                     <path d={coastline(x - r * 0.2, y - r * 0.15, r * 0.45, seed + 1)} fill="#ffffff" fillOpacity="0.16" />
                     {locked && <path d={coastline(x, y, r, seed)} fill="url(#fog)" />}
-                    <Icon x={x - 16} y={y - 20} width={32} height={32} color="#ffffff" strokeWidth={2} aria-hidden />
+                    <Icon x={x - 16} y={y - 20} width={32} height={32} color={!locked && isLight(island.themeColour) ? DEEP : '#ffffff'} strokeWidth={2} aria-hidden />
+                    {island.slug === 'exam-island' && !locked && <TreasureMark x={x + r * 0.5} y={y + r * 0.35} />}
                     {island.state === 'complete' && (
                       <g transform={`translate(${x + r * 0.55} ${y - r * 0.75})`} aria-hidden>
                         <path d="M0 0V-34" stroke="#0e2a47" strokeWidth="3" />
@@ -193,7 +215,7 @@ export default function IslandMap({ islands, currentSlug }) {
                     <text y="22" textAnchor="middle" fill="#0e2a47" fontSize="17" fontFamily="var(--font-display)">
                       {name}
                     </text>
-                    <text y="40" textAnchor="middle" fill={locked ? '#c8323f' : '#46607a'} fontSize="13" fontWeight="700" fontFamily="var(--font-body)">
+                    <text y="40" textAnchor="middle" fill={locked ? DEEP : '#46607a'} fontSize="13" fontWeight="700" fontFamily="var(--font-body)">
                       {sub}
                     </text>
                   </g>
@@ -206,8 +228,7 @@ export default function IslandMap({ islands, currentSlug }) {
             <g className="map-ship" aria-hidden>
               <g transform={`translate(${ship.x + ship.r * 0.95} ${ship.y - ship.r * 0.95})`}>
                 <g className="ship-bob">
-                  <circle r="24" fill="#ffffff" stroke="#f2b53a" strokeWidth="3" />
-                  <Sailboat x={-14} y={-15} width={28} height={28} color="#0e2a47" strokeWidth={2.2} />
+                  <PirateShip />
                 </g>
               </g>
             </g>
@@ -216,7 +237,7 @@ export default function IslandMap({ islands, currentSlug }) {
       </div>
       <p className="on-deep flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-key/10 px-5 py-3 text-sm text-foam/85">
         <span className="flex items-center gap-2">
-          <Sailboat aria-hidden size={16} /> You are here
+          <Sailboat aria-hidden size={16} /> Red ship: you are here
         </span>
         <span className="flex items-center gap-2">
           <Check aria-hidden size={16} /> Gold flag: island complete
@@ -228,3 +249,38 @@ export default function IslandMap({ islands, currentSlug }) {
     </div>
   )
 }
+
+// Captain Roc's ship: red hull, white sails and a flag with a music note instead of a skull
+function PirateShip() {
+  return (
+    <g>
+      <ellipse cy="22" rx="34" ry="6" fill="#ffffff" fillOpacity="0.25" />
+      <path d="M0 6V-44" stroke={DEEP} strokeWidth="3" />
+      <path d="M-18 -36Q0 -30 18 -36L16 -8Q0 -12 -16 -8Z" fill="#ffffff" stroke={DEEP} strokeWidth="2" />
+      <path d="M-12 -6Q0 -9 12 -6L11 2Q0 0 -11 2Z" fill="#ffffff" stroke={DEEP} strokeWidth="2" />
+      <path d="M1 -52h20v13H1Z" fill={DEEP} />
+      <circle cx="9" cy="-42" r="2.6" fill="#ffffff" />
+      <path d="M11.3 -42V-49.5L15 -48" stroke="#ffffff" strokeWidth="1.6" fill="none" />
+      <path d="M-32 4Q0 11 32 4L23 21Q0 25 -23 21Z" fill="#d93f4c" stroke={DEEP} strokeWidth="2" />
+      {[-14, 0, 14].map((cx) => (
+        <circle key={cx} cx={cx} cy="13" r="2.5" fill="#ffffff" />
+      ))}
+    </g>
+  )
+}
+
+// "X marks the spot" with a little treasure chest, for Exam Island
+function TreasureMark({ x, y }) {
+  return (
+    <g transform={`translate(${x} ${y})`} aria-hidden>
+      <path d="M-9 -9L9 9M9 -9L-9 9" stroke="#d93f4c" strokeWidth="5" strokeLinecap="round" />
+      <g transform="translate(18 -2)">
+        <rect x="0" y="-6" width="20" height="14" rx="2" fill={DEEP} />
+        <path d="M0 -6Q10 -16 20 -6Z" fill={DEEP} />
+        <rect x="2" y="-3" width="16" height="9" rx="1" fill="#f2b53a" />
+        <rect x="8.5" y="-5" width="3" height="5" fill={DEEP} />
+      </g>
+    </g>
+  )
+}
+

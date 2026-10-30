@@ -1,4 +1,5 @@
 // Small shared pieces used across pages.
+import { CircleAlert } from 'lucide-react'
 
 export function PageHeader({ title, children }) {
   return (
@@ -48,7 +49,8 @@ export function Field({ label, name, type = 'text', required, error, hint, as = 
         {children}
       </Tag>
       {error && (
-        <p id={`${id}-error`} className="mt-1 text-sm font-bold text-buoy">
+        <p id={`${id}-error`} className="mt-1.5 flex items-center gap-1.5 text-sm font-bold text-deep">
+          <CircleAlert aria-hidden size={16} className="shrink-0 text-buoy" />
           {error}
         </p>
       )}

@@ -40,7 +40,7 @@ export default function QuoteDeck({ items }) {
           return (
             <motion.div
               key={item.id}
-              className="absolute inset-0 flex flex-col justify-between rounded-2xl border-[6px] border-key bg-[#fdf8ec] p-6 shadow-[var(--shadow-lift)] sm:p-8"
+              className="absolute inset-0 flex flex-col justify-between rounded-2xl border-[6px] border-key bg-key p-6 shadow-[var(--shadow-lift)] sm:p-8"
               initial={false}
               animate={
                 isActive

@@ -14,8 +14,9 @@ export async function getPracticeLogs(studentId) {
   return logs.sort((a, b) => b.date.localeCompare(a.date))
 }
 
-export function addPracticeLog({ studentId, date, minutes, lessonId = null, note = '' }) {
-  return insert('practiceLogs', { studentId, date, minutes, lessonId, note })
+// What was practised: a lesson, a song, or neither (free practice)
+export function addPracticeLog({ studentId, date, minutes, lessonId = null, songId = null, note = '' }) {
+  return insert('practiceLogs', { studentId, date, minutes, lessonId, songId, note })
 }
 
 export function getEnrolments(studentId) {
