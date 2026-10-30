@@ -1,0 +1,5 @@
+[
+  { "id": "asg-1", "studentId": "u-oliver", "tutorId": "u-tom", "kind": "lesson", "itemId": "mel-m2-l4", "note": "Have the review ready for next lesson.", "daysAgo": 3, "placeholder": true },
+  { "id": "asg-2", "studentId": "u-oliver", "tutorId": "u-tom", "kind": "song", "itemId": "song-4", "note": "Right hand melody only this week.", "daysAgo": 3, "placeholder": true },
+  { "id": "asg-3", "studentId": "u-mia", "tutorId": "u-hugo", "kind": "lesson", "itemId": "mel-m1-l7", "note": "Curved fingers!", "daysAgo": 5, "placeholder": true }
+]

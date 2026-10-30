@@ -1,7 +1,7 @@
 // Checks the unlock, practice and badge rules against the seed data. Run: npm run check
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { buildMapState, hasAccess, ownedTiers, tierIncludes } from '../src/services/access.js'
+import { buildMapState, findCurrent, hasAccess, ownedTiers, tierIncludes } from '../src/services/access.js'
 import { bestStreak, currentStreak, minutesByDay } from '../src/utils/practice.js'
 import { earnedBadgeIds } from '../src/utils/badges.js'
 
@@ -13,7 +13,7 @@ function mapFor(studentId, extraProgress = []) {
   const map = buildMapState({ islands, modules, lessons, progress: [...progress.filter((p) => p.studentId === studentId), ...extraProgress], owned })
   const mod = (id) => map.flatMap((i) => i.modules).find((m) => m.id === id).state
   const isl = (slug) => map.find((i) => i.slug === slug).state
-  return { mod, isl }
+  return { mod, isl, map }
 }
 
 // Tier rules
@@ -49,6 +49,11 @@ assert.equal(m.mod('mel-m2'), 'not started')
 const n = mapFor('u-nobody')
 assert.equal(n.mod('mel-m1'), 'not started')
 assert.equal(n.isl('songbook-island'), 'locked')
+
+// Next stop: Sam finished the only Melody module she can open, so she's sent to Notation
+const sam = findCurrent(mapFor('u-sam').map)
+assert.equal(sam.island.slug, 'notation-island')
+assert.equal(findCurrent(mapFor('u-oliver').map).module.id, 'mel-m2')
 
 // Practice streaks (fixed "today" so the check never depends on the clock)
 const today = new Date('2026-10-30T09:00:00')

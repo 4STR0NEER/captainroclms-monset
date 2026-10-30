@@ -69,3 +69,13 @@ export function buildMapState({ islands, modules, lessons, progress, owned }) {
     return { ...island, modules: ims, lessonCount, completeCount, state }
   })
 }
+
+// Where the student should sail next: a module they're part way through,
+// else the first module they can open but haven't started. Islands with nothing
+// left to open are skipped, even if they're "in progress".
+export function findCurrent(islands) {
+  const playable = (m) => m.state === 'in progress' || m.state === 'not started'
+  const island = islands.find((i) => i.modules.some((m) => m.state === 'in progress')) ?? islands.find((i) => i.modules.some(playable))
+  const module = island?.modules.find((m) => m.state === 'in progress') ?? island?.modules.find(playable)
+  return { island, module }
+}

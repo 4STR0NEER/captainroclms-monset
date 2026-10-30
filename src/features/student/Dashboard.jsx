@@ -1,23 +1,20 @@
 import { Link } from 'react-router'
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, Compass } from 'lucide-react'
 import IslandMap from '../../components/IslandMap'
 import { Loading } from '../../components/ui'
 import { useAuth } from '../../app/AuthContext'
 import { useAsync } from '../../utils/useAsync'
 import { getStudentMap } from '../../services/courses'
+import { getAssignments } from '../../services/tutor'
+import { findCurrent } from '../../services/access'
 import { StateBadge } from './IslandDetail'
 
-// Where the student should sail next: the island they're part way through, else the next open one.
-export function findCurrent(islands) {
-  const island = islands.find((i) => i.state === 'in progress') ?? islands.find((i) => i.state === 'not started')
-  const module = island?.modules.find((m) => m.state === 'in progress') ?? island?.modules.find((m) => m.state === 'not started')
-  return { island, module }
-}
 
 export default function Dashboard() {
   const { user } = useAuth()
-  const { data: islands, loading } = useAsync(() => getStudentMap(user.id), [user.id])
+  const { data, loading } = useAsync(() => Promise.all([getStudentMap(user.id), getAssignments(user.id)]), [user.id])
   if (loading) return <Loading label="Unrolling the map…" />
+  const [islands, orders] = data
 
   const { island: current, module: nextModule } = findCurrent(islands)
 
@@ -41,6 +38,30 @@ export default function Dashboard() {
           </Link>
         )}
       </div>
+
+      {orders.length > 0 && (
+        <section aria-labelledby="orders-title" className="mt-8 rounded-[var(--radius-card)] bg-lagoon/10 p-5">
+          <h2 id="orders-title" className="flex items-center gap-2 text-2xl">
+            <Compass aria-hidden size={24} /> Orders from your tutor
+          </h2>
+          <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+            {orders.map((o) => (
+              <li key={o.id}>
+                <Link to={o.href} className="flex min-h-14 items-center gap-3 rounded-2xl bg-key px-4 py-3 text-deep no-underline shadow-[var(--shadow-lift)] hover:bg-foam">
+                  <span className="flex-1">
+                    <span className="block font-bold">{o.title}</span>
+                    <span className="block text-sm text-deep-soft">
+                      {o.kind === 'lesson' ? 'Lesson' : 'Song'}
+                      {o.note && `: ${o.note}`}
+                    </span>
+                  </span>
+                  <ChevronRight aria-hidden size={20} className="text-deep-soft" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <div className="mt-8">
         <IslandMap islands={islands} currentSlug={current?.slug} />

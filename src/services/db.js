@@ -17,11 +17,13 @@ import examInterest from '../data/examInterest.json'
 import badges from '../data/badges.json'
 import posts from '../data/posts.json'
 import testimonials from '../data/testimonials.json'
+import assignments from '../data/assignments.json'
+import examReadiness from '../data/examReadiness.json'
 import { isoDaysAgo, localIso } from '../utils/dates'
 
 // Bump the version whenever seed data changes, so browsers drop their old saved copy
-const STORAGE_KEY = 'jazzroc-demo-db-v2'
-const SEED = { islands, modules, lessons, resources, songs, schools, users, products, enrolments, progress, practiceLogs, tutorNotes, examInterest, badges, posts, testimonials, contactMessages: [] }
+const STORAGE_KEY = 'jazzroc-demo-db-v3'
+const SEED = { islands, modules, lessons, resources, songs, schools, users, products, enrolments, progress, practiceLogs, tutorNotes, examInterest, badges, posts, testimonials, assignments, examReadiness, contactMessages: [] }
 
 // Seed dates are stored as "days ago" so the demo always looks current.
 const RELATIVE_DATES = { daysAgo: 'date', startDaysAgo: 'startDate', updatedDaysAgo: 'updatedAt', createdDaysAgo: 'createdAt' }

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "exr-1",
+    "studentId": "u-chloe",
+    "targetGrade": "Grade 2",
+    "items": { "scales": true, "song1": true, "song2": true, "song3": false, "sightOrEar": false, "improvise": true, "pulse": true, "rhythms": true, "singBack": false, "questionAnswer": false },
+    "daysAgo": 2,
+    "placeholder": true
+  }
+]

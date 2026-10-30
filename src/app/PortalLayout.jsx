@@ -16,7 +16,7 @@ const NAV = {
     { to: '/parent/billing', label: 'Billing' },
     { to: '/parent/profiles', label: 'Child profiles' },
   ],
-  tutor: [{ to: '/tutor', label: 'My students', end: true }],
+  tutor: [{ to: '/tutor', label: 'My crew', end: true, alsoActive: ['/tutor/student'] }],
   admin: [
     { to: '/admin', label: 'Overview', end: true },
     { to: '/admin/students', label: 'Students' },

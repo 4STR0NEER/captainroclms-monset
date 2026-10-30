@@ -7,7 +7,7 @@ import { useAuth } from '../../app/AuthContext'
 import { useAsync } from '../../utils/useAsync'
 import { bestStreak, currentStreak, minutesByDay, totalMinutes } from '../../utils/practice'
 import { getChildSummary } from '../../services/family'
-import { findCurrent } from '../student/Dashboard'
+import { findCurrent } from '../../services/access'
 import NotFound from '../shared/NotFound'
 
 export default function ChildDetail() {

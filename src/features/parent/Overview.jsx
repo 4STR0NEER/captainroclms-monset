@@ -1,12 +1,13 @@
 import { Link, useNavigate } from 'react-router'
 import { Anchor, Flame, GraduationCap, ScrollText, UserPlus } from 'lucide-react'
 import SmoothTab from '../../components/kokonut/SmoothTab'
+import VoyageBars from '../../components/VoyageBars'
 import { Loading, formatDate } from '../../components/ui'
 import { useAuth } from '../../app/AuthContext'
 import { useAsync } from '../../utils/useAsync'
 import { currentStreak, minutesByDay } from '../../utils/practice'
 import { getFamily } from '../../services/family'
-import { findCurrent } from '../student/Dashboard'
+import { findCurrent } from '../../services/access'
 
 export default function Overview() {
   const { user } = useAuth()
@@ -47,7 +48,6 @@ function ChildPanel({ summary }) {
   const week = minutesByDay(logs, 7)
   const weekMinutes = week.reduce((n, d) => n + d.minutes, 0)
   const streak = currentStreak(logs)
-  const voyage = islands.filter((i) => i.lessonCount > 0 && i.state !== 'locked')
   const active = enrolments.filter((e) => e.status === 'active')
   const pending = enrolments.filter((e) => e.status === 'pending')
 
@@ -88,19 +88,7 @@ function ChildPanel({ summary }) {
               'Every open island explored.'
             )}
           </p>
-          <ul className="mt-4 space-y-3">
-            {voyage.map((i) => (
-              <li key={i.id} className="grid grid-cols-[minmax(0,11rem)_1fr_4.5rem] items-center gap-3">
-                <span className="font-bold leading-tight">{i.name}</span>
-                <span className="h-2.5 overflow-hidden rounded-full bg-deep/10" aria-hidden>
-                  <span className="block h-full rounded-full" style={{ width: `${(i.completeCount / i.lessonCount) * 100}%`, background: i.themeColour }} />
-                </span>
-                <span className="text-right text-sm tabular-nums text-deep-soft">
-                  {i.completeCount} of {i.lessonCount}
-                </span>
-              </li>
-            ))}
-          </ul>
+          <VoyageBars islands={islands} />
         </section>
 
         <section aria-label={`${child.firstName}'s practice this week`} className="on-deep rounded-[var(--radius-card)] bg-deep p-5 text-key">

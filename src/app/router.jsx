@@ -22,6 +22,8 @@ import ParentOverview from '../features/parent/Overview'
 import ChildDetail from '../features/parent/ChildDetail'
 import Billing from '../features/parent/Billing'
 import Profiles from '../features/parent/Profiles'
+import MyStudents from '../features/tutor/MyStudents'
+import StudentDetail from '../features/tutor/StudentDetail'
 
 // Pages not built yet render <ComingSoon>; each phase swaps a stub for the real page.
 const soon = (title, phase) => <ComingSoon title={title} phase={phase} />
@@ -68,8 +70,8 @@ export const router = createBrowserRouter([
       {
         element: <RequireRole role="tutor" />,
         children: [
-          { path: '/tutor', element: soon('My students', 6) },
-          { path: '/tutor/student/:id', element: soon('Student', 6) },
+          { path: '/tutor', element: <MyStudents /> },
+          { path: '/tutor/student/:id', element: <StudentDetail /> },
         ],
       },
       {
