@@ -69,8 +69,8 @@ export default function QuoteDeck({ items }) {
               exit={reduce ? { opacity: 0 } : { opacity: 0, y: -12 }}
               transition={{ duration: 0.2, ease: EASE_OUT }}
             >
-              <blockquote className="text-lg md:sr-only">“{current.quote}”</blockquote>
-              <figcaption className="mt-4 md:mt-0">
+              <blockquote className="sr-only">“{current.quote}”</blockquote>
+              <figcaption>
                 <span className="block font-display text-2xl">{current.name}</span>
                 <span className="block text-deep-soft">{current.role}</span>
               </figcaption>

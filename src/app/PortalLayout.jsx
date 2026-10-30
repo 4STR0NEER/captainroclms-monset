@@ -1,4 +1,4 @@
-import { NavLink, Outlet, ScrollRestoration, useNavigate } from 'react-router'
+import { NavLink, Outlet, ScrollRestoration, useLocation, useNavigate } from 'react-router'
 import { LogOut, RotateCcw } from 'lucide-react'
 import Logo from '../components/Logo'
 import { ROLE_HOME, useAuth } from './AuthContext'
@@ -6,7 +6,7 @@ import { resetDemo } from '../services/db'
 
 const NAV = {
   student: [
-    { to: '/app', label: 'Island map', end: true },
+    { to: '/app', label: 'Island map', end: true, alsoActive: ['/app/island', '/app/lesson'] },
     { to: '/app/practice', label: 'Practice log' },
     { to: '/app/songbook', label: 'Songbook' },
     { to: '/app/badges', label: 'Badges' },
@@ -26,12 +26,13 @@ const NAV = {
   ],
 }
 
-const navClass = ({ isActive }) =>
-  `shrink-0 rounded-full px-4 py-2 font-bold no-underline transition-colors ${isActive ? 'bg-deep text-key' : 'text-deep hover:bg-deep/5'}`
+const navClass = (active) =>
+  `shrink-0 rounded-full px-4 py-2 font-bold no-underline transition-colors ${active ? 'bg-deep text-key' : 'text-deep hover:bg-deep/5'}`
 
 export default function PortalLayout() {
   const { user, role, signOut } = useAuth()
   const navigate = useNavigate()
+  const { pathname } = useLocation()
 
   function handleReset() {
     if (!window.confirm('Reset all demo data? Progress, practice logs and edits made in this browser will be cleared.')) return
@@ -68,7 +69,12 @@ export default function PortalLayout() {
         {role && (
           <nav aria-label="Portal" className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-4 pb-3">
             {NAV[role].map((n) => (
-              <NavLink key={n.to} to={n.to} end={n.end} className={navClass}>
+              <NavLink
+                key={n.to}
+                to={n.to}
+                end={n.end}
+                className={({ isActive }) => navClass(isActive || n.alsoActive?.some((p) => pathname.startsWith(p)))}
+              >
                 {n.label}
               </NavLink>
             ))}

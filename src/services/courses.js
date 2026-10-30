@@ -1,4 +1,5 @@
 import { select, selectOne } from './db'
+import { buildMapState, ownedTiers } from './access'
 
 const byOrder = (a, b) => a.order - b.order
 
@@ -41,4 +42,17 @@ export function getProducts() {
 
 export function getBadges() {
   return select('badges')
+}
+
+// Everything the island map needs for one student, with unlock states worked out.
+export async function getStudentMap(studentId) {
+  const [islands, modules, lessons, progress, enrolments, products] = await Promise.all([
+    getIslands(),
+    getModules(),
+    getLessons(),
+    select('progress', (p) => p.studentId === studentId),
+    select('enrolments', (e) => e.studentId === studentId),
+    getProducts(),
+  ])
+  return buildMapState({ islands, modules, lessons, progress, owned: ownedTiers(enrolments, products) })
 }

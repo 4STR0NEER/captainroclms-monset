@@ -12,6 +12,8 @@ import ExamIsland from '../features/public/ExamIsland'
 import { NewsList, NewsPost } from '../features/public/News'
 import Contact from '../features/public/Contact'
 import Privacy from '../features/public/Privacy'
+import Dashboard from '../features/student/Dashboard'
+import IslandDetail from '../features/student/IslandDetail'
 
 // Pages not built yet render <ComingSoon>; each phase swaps a stub for the real page.
 const soon = (title, phase) => <ComingSoon title={title} phase={phase} />
@@ -38,8 +40,8 @@ export const router = createBrowserRouter([
       {
         element: <RequireRole role="student" />,
         children: [
-          { path: '/app', element: soon('Your island map', 3) },
-          { path: '/app/island/:slug', element: soon('Island', 3) },
+          { path: '/app', element: <Dashboard /> },
+          { path: '/app/island/:slug', element: <IslandDetail /> },
           { path: '/app/lesson/:id', element: soon('Lesson', 4) },
           { path: '/app/practice', element: soon('Practice log', 4) },
           { path: '/app/songbook', element: soon('Songbook', 4) },

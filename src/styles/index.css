@@ -117,3 +117,41 @@
     border-block: 1px solid var(--color-line);
   }
 }
+
+/* Island map interaction states (see components/IslandMap.jsx) */
+.island-map .island-pop,
+.island-map .island-land {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.island-map .island-land {
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+@media (hover: hover) {
+  .island-map .island-link:hover .island-land {
+    transform: translateY(-5px);
+  }
+}
+.island-map .island-link {
+  cursor: pointer;
+  outline: none;
+}
+.island-map .island-focus {
+  opacity: 0;
+}
+.island-map .island-link:focus-visible .island-focus {
+  opacity: 1;
+}
+.island-map .ship-bob {
+  animation: ship-bob 3.2s ease-in-out infinite;
+}
+@keyframes ship-bob {
+  50% {
+    transform: translateY(-5px) rotate(-3deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .island-map .ship-bob {
+    animation: none;
+  }
+}
