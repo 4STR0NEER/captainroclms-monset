@@ -1,0 +1,27 @@
+[
+  {
+    "id": "prod-taster",
+    "name": "New Players Taster Course",
+    "price": 45,
+    "accessTier": "taster",
+    "billing": "once",
+    "description": "Melody Island Book One (Modules Two to Four), the Practice Cave, Songbook Island and TV Themes."
+  },
+  {
+    "id": "prod-home",
+    "name": "Progress at Home Course",
+    "price": 85,
+    "accessTier": "home",
+    "billing": "once",
+    "description": "Melody Island Book Two, Harmony, Notation and Music Fundamentals islands."
+  },
+  {
+    "id": "prod-member",
+    "name": "Lesson Membership",
+    "price": null,
+    "accessTier": "member",
+    "billing": "term",
+    "tbc": true,
+    "description": "Weekly face to face lessons each school term plus every island, Exam Island and tutor feedback. Price to be confirmed."
+  }
+]

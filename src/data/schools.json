@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sch-newport",
+    "name": "Newport Public School",
+    "address": "Stuart St, Newport NSW 2106"
+  },
+  {
+    "id": "sch-stlukes",
+    "name": "St Lukes Grammar School",
+    "address": "210 Headland Rd, Dee Why NSW 2099"
+  },
+  {
+    "id": "sch-home",
+    "name": "Learning at home",
+    "address": null
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "mel-m1",
+    "islandId": "isl-melody",
+    "title": "Module One: Young Beginners",
+    "order": 1,
+    "book": 1,
+    "accessTier": "free",
+    "unlockRule": null,
+    "closingNote": "Make sure you have practised all your pieces before you travel to Module Two."
+  },
+  {
+    "id": "mel-m2",
+    "islandId": "isl-melody",
+    "title": "Module Two",
+    "order": 2,
+    "book": 1,
+    "accessTier": "taster",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m1"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "mel-m3",
+    "islandId": "isl-melody",
+    "title": "Module Three",
+    "order": 3,
+    "book": 1,
+    "accessTier": "taster",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m2"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "mel-m4",
+    "islandId": "isl-melody",
+    "title": "Module Four",
+    "order": 4,
+    "book": 1,
+    "accessTier": "taster",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m3"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "mel-m5",
+    "islandId": "isl-melody",
+    "title": "Module Five",
+    "order": 5,
+    "book": 2,
+    "accessTier": "home",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m4"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "mel-m6",
+    "islandId": "isl-melody",
+    "title": "Module Six",
+    "order": 6,
+    "book": 2,
+    "accessTier": "home",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m5"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "mel-m7",
+    "islandId": "isl-melody",
+    "title": "Module Seven",
+    "order": 7,
+    "book": 2,
+    "accessTier": "home",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m6"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "mel-m8",
+    "islandId": "isl-melody",
+    "title": "Module Eight",
+    "order": 8,
+    "book": 2,
+    "accessTier": "home",
+    "unlockRule": {
+      "type": "completeModule",
+      "moduleId": "mel-m7"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "har-m1",
+    "islandId": "isl-harmony",
+    "title": "Module One: Chords and harmony",
+    "order": 1,
+    "book": null,
+    "accessTier": "home",
+    "unlockRule": null,
+    "placeholder": true
+  },
+  {
+    "id": "not-m1",
+    "islandId": "isl-notation",
+    "title": "Reading music basics",
+    "order": 1,
+    "book": null,
+    "accessTier": "home",
+    "unlockRule": null
+  },
+  {
+    "id": "fun-m1",
+    "islandId": "isl-fundamentals",
+    "title": "Intervals, scales and chords",
+    "order": 1,
+    "book": null,
+    "accessTier": "home",
+    "unlockRule": null
+  },
+  {
+    "id": "cav-m1",
+    "islandId": "isl-cave",
+    "title": "Warm-ups",
+    "order": 1,
+    "book": null,
+    "accessTier": "taster",
+    "unlockRule": null,
+    "placeholder": true
+  },
+  {
+    "id": "exa-m1",
+    "islandId": "isl-exam",
+    "title": "ABRSM Jazz Piano exam guide",
+    "order": 1,
+    "book": null,
+    "accessTier": "member",
+    "unlockRule": null
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "post-1",
+    "slug": "matthew-thomson-national-jazz-awards",
+    "title": "Matthew Thomson, National Jazz Awards finalist",
+    "date": "2021-11-01",
+    "excerpt": "Former JazzRoc student Matthew Thomson was named a 2021 National Jazz Awards finalist for piano.",
+    "body": "We are proud to share that Matthew Thomson, who began his jazz journey with Captain Roc, was a finalist for piano in the 2021 National Jazz Awards.\n\nMatthew went on to complete a masters at the Sydney Conservatorium of Music and to study at the New England Conservatory in Boston.\n\nEvery student starts at Module One. Matthew is proof of where the voyage can lead.",
+    "dateApproximate": true
+  },
+  {
+    "id": "post-2",
+    "slug": "new-online-learning-platform",
+    "title": "Our new online learning platform is coming",
+    "date": "2026-10-30",
+    "excerpt": "Personal accounts, progress tracking and a practice log for every student.",
+    "body": "Placeholder post. Announce the new platform here once it launches.",
+    "placeholder": true
+  },
+  {
+    "id": "post-3",
+    "slug": "exam-season",
+    "title": "Thinking about a jazz exam next year?",
+    "date": "2026-10-15",
+    "excerpt": "Register your interest for ABRSM Jazz Piano exam preparation.",
+    "body": "Placeholder post. Encourage families to register interest via Exam Island.",
+    "placeholder": true
+  }
+]

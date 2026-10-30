@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bdg-set-sail",
+    "name": "Set Sail",
+    "description": "Complete your first lesson.",
+    "icon": "sailboat",
+    "rule": {
+      "type": "lessonsComplete",
+      "count": 1
+    }
+  },
+  {
+    "id": "bdg-module-one",
+    "name": "Module One Navigator",
+    "description": "Complete every lesson in Melody Island Module One.",
+    "icon": "map",
+    "rule": {
+      "type": "moduleComplete",
+      "moduleId": "mel-m1"
+    }
+  },
+  {
+    "id": "bdg-book-one",
+    "name": "Book One Voyager",
+    "description": "Complete Melody Island Book One.",
+    "icon": "book-check",
+    "rule": {
+      "type": "modulesComplete",
+      "moduleIds": [
+        "mel-m1",
+        "mel-m2",
+        "mel-m3",
+        "mel-m4"
+      ]
+    }
+  },
+  {
+    "id": "bdg-streak-3",
+    "name": "Three Days at Sea",
+    "description": "Practise three days in a row.",
+    "icon": "flame",
+    "rule": {
+      "type": "streak",
+      "days": 3
+    }
+  },
+  {
+    "id": "bdg-streak-7",
+    "name": "Seven Seas",
+    "description": "Practise seven days in a row.",
+    "icon": "waves",
+    "rule": {
+      "type": "streak",
+      "days": 7
+    }
+  },
+  {
+    "id": "bdg-hour",
+    "name": "An Hour at the Keys",
+    "description": "Log 60 minutes of practice in total.",
+    "icon": "clock",
+    "rule": {
+      "type": "totalMinutes",
+      "minutes": 60
+    }
+  },
+  {
+    "id": "bdg-logbook",
+    "name": "Captain's Logbook",
+    "description": "Log ten practice sessions.",
+    "icon": "notebook-pen",
+    "rule": {
+      "type": "logCount",
+      "count": 10
+    }
+  },
+  {
+    "id": "bdg-first-song",
+    "name": "First Song from the Songbook",
+    "description": "Practise a piece from Songbook Island.",
+    "icon": "music-2",
+    "rule": {
+      "type": "songPractised"
+    }
+  }
+]

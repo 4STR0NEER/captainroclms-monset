@@ -1,0 +1,93 @@
+[
+  {
+    "id": "enr-1",
+    "studentId": "u-oliver",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 30
+  },
+  {
+    "id": "enr-2",
+    "studentId": "u-mia",
+    "productId": "prod-taster",
+    "status": "active",
+    "startDaysAgo": 39
+  },
+  {
+    "id": "enr-3",
+    "studentId": "u-sam",
+    "productId": "prod-home",
+    "status": "active",
+    "startDaysAgo": 48
+  },
+  {
+    "id": "enr-4",
+    "studentId": "u-jack",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 57
+  },
+  {
+    "id": "enr-5",
+    "studentId": "u-isla",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 66
+  },
+  {
+    "id": "enr-6",
+    "studentId": "u-noah",
+    "productId": "prod-taster",
+    "status": "active",
+    "startDaysAgo": 75
+  },
+  {
+    "id": "enr-7",
+    "studentId": "u-ava",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 84
+  },
+  {
+    "id": "enr-8",
+    "studentId": "u-leo",
+    "productId": "prod-home",
+    "status": "active",
+    "startDaysAgo": 93
+  },
+  {
+    "id": "enr-9",
+    "studentId": "u-chloe",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 102
+  },
+  {
+    "id": "enr-10",
+    "studentId": "u-henry",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 111
+  },
+  {
+    "id": "enr-11",
+    "studentId": "u-zoe",
+    "productId": "prod-taster",
+    "status": "active",
+    "startDaysAgo": 120
+  },
+  {
+    "id": "enr-12",
+    "studentId": "u-archie",
+    "productId": "prod-member",
+    "status": "active",
+    "startDaysAgo": 129
+  },
+  {
+    "id": "enr-13",
+    "studentId": "u-mia",
+    "productId": "prod-home",
+    "status": "pending",
+    "startDaysAgo": 0
+  }
+]

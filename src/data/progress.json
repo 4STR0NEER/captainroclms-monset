@@ -1,0 +1,272 @@
+[
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l4",
+    "status": "complete",
+    "updatedDaysAgo": 37
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l5",
+    "status": "complete",
+    "updatedDaysAgo": 36
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l6",
+    "status": "complete",
+    "updatedDaysAgo": 35
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l7",
+    "status": "complete",
+    "updatedDaysAgo": 34
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m1-l8",
+    "status": "complete",
+    "updatedDaysAgo": 33
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m2-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m2-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-oliver",
+    "lessonId": "mel-m2-l3",
+    "status": "practised",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-mia",
+    "lessonId": "mel-m1-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-mia",
+    "lessonId": "mel-m1-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-mia",
+    "lessonId": "mel-m1-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-mia",
+    "lessonId": "mel-m1-l4",
+    "status": "complete",
+    "updatedDaysAgo": 37
+  },
+  {
+    "studentId": "u-mia",
+    "lessonId": "mel-m1-l5",
+    "status": "complete",
+    "updatedDaysAgo": 36
+  },
+  {
+    "studentId": "u-mia",
+    "lessonId": "mel-m1-l6",
+    "status": "practised",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l4",
+    "status": "complete",
+    "updatedDaysAgo": 37
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l5",
+    "status": "complete",
+    "updatedDaysAgo": 36
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l6",
+    "status": "complete",
+    "updatedDaysAgo": 35
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l7",
+    "status": "complete",
+    "updatedDaysAgo": 34
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "mel-m1-l8",
+    "status": "complete",
+    "updatedDaysAgo": 33
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "not-m1-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "not-m1-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "not-m1-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-sam",
+    "lessonId": "not-m1-l4",
+    "status": "complete",
+    "updatedDaysAgo": 37
+  },
+  {
+    "studentId": "u-jack",
+    "lessonId": "mel-m1-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-jack",
+    "lessonId": "mel-m1-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-jack",
+    "lessonId": "mel-m1-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l4",
+    "status": "complete",
+    "updatedDaysAgo": 37
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l5",
+    "status": "complete",
+    "updatedDaysAgo": 36
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l6",
+    "status": "complete",
+    "updatedDaysAgo": 35
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l7",
+    "status": "complete",
+    "updatedDaysAgo": 34
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m1-l8",
+    "status": "complete",
+    "updatedDaysAgo": 33
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m2-l1",
+    "status": "complete",
+    "updatedDaysAgo": 40
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m2-l2",
+    "status": "complete",
+    "updatedDaysAgo": 39
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m2-l3",
+    "status": "complete",
+    "updatedDaysAgo": 38
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "mel-m2-l4",
+    "status": "complete",
+    "updatedDaysAgo": 37
+  },
+  {
+    "studentId": "u-chloe",
+    "lessonId": "exa-m1-l1",
+    "status": "practised",
+    "updatedDaysAgo": 40
+  }
+]

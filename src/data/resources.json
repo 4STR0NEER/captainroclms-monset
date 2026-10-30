@@ -1,0 +1,880 @@
+[
+  {
+    "id": "res-1",
+    "lessonId": "mel-m1-l1",
+    "kind": "pdf",
+    "title": "Course Book Cover Page",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/Book-1-Cover.pdf"
+  },
+  {
+    "id": "res-2",
+    "lessonId": "mel-m1-l1",
+    "kind": "pdf",
+    "title": "Message to Parents",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-2.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-3",
+    "lessonId": "mel-m1-l2",
+    "kind": "pdf",
+    "title": "Page One",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-3.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-4",
+    "lessonId": "mel-m1-l2",
+    "kind": "youtube",
+    "title": "Pianos and Keyboards",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-5",
+    "lessonId": "mel-m1-l2",
+    "kind": "pdf",
+    "title": "Page Two",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-4.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-6",
+    "lessonId": "mel-m1-l3",
+    "kind": "youtube",
+    "title": "Beginners Theory",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-7",
+    "lessonId": "mel-m1-l3",
+    "kind": "pdf",
+    "title": "Page Three",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-5.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-8",
+    "lessonId": "mel-m1-l3",
+    "kind": "pdf",
+    "title": "Page Four",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-6.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-9",
+    "lessonId": "mel-m1-l4",
+    "kind": "pdf",
+    "title": "Page Five",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-7.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-10",
+    "lessonId": "mel-m1-l4",
+    "kind": "pdf",
+    "title": "Page Six",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-8.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-11",
+    "lessonId": "mel-m1-l4",
+    "kind": "youtube",
+    "title": "Your First Five Songs",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-12",
+    "lessonId": "mel-m1-l5",
+    "kind": "pdf",
+    "title": "Page Seven",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-9.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-13",
+    "lessonId": "mel-m1-l5",
+    "kind": "video",
+    "title": "Mary Had a Little Frog",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-14",
+    "lessonId": "mel-m1-l5",
+    "kind": "pdf",
+    "title": "Page Eight",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-10.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-15",
+    "lessonId": "mel-m1-l5",
+    "kind": "video",
+    "title": "Rocky the Robot",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-16",
+    "lessonId": "mel-m1-l6",
+    "kind": "pdf",
+    "title": "Page Nine",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-11.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-17",
+    "lessonId": "mel-m1-l6",
+    "kind": "video",
+    "title": "Off to the Zoo",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-18",
+    "lessonId": "mel-m1-l6",
+    "kind": "youtube",
+    "title": "Skip to My Lou",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-19",
+    "lessonId": "mel-m1-l7",
+    "kind": "pdf",
+    "title": "Page Ten",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-12.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-20",
+    "lessonId": "mel-m1-l7",
+    "kind": "video",
+    "title": "Dancing Fingers",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-21",
+    "lessonId": "mel-m1-l7",
+    "kind": "pdf",
+    "title": "Page Eleven",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-13.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-22",
+    "lessonId": "mel-m1-l7",
+    "kind": "video",
+    "title": "Fruit Loops",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-23",
+    "lessonId": "mel-m1-l7",
+    "kind": "youtube",
+    "title": "Oranges and Lemons",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-24",
+    "lessonId": "mel-m1-l8",
+    "kind": "pdf",
+    "title": "Page Twelve",
+    "url": "https://jazzroc.com/wp-content/uploads/2019/02/level1_full_booklet-14.pdf",
+    "urlVerified": false
+  },
+  {
+    "id": "res-25",
+    "lessonId": "mel-m1-l8",
+    "kind": "video",
+    "title": "Song of Joy",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-26",
+    "lessonId": "mel-m1-l8",
+    "kind": "youtube",
+    "title": "Ode to Joy flashmob",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-27",
+    "lessonId": "mel-m1-l8",
+    "kind": "pdf",
+    "title": "Captain Roc's Bonus Song: Baby Shark",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-28",
+    "lessonId": "mel-m1-l8",
+    "kind": "video",
+    "title": "Captain Roc's Bonus Song: Baby Shark",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-29",
+    "lessonId": "mel-m1-l8",
+    "kind": "video",
+    "title": "Captain Roc's Melody on A",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-30",
+    "lessonId": "mel-m2-l1",
+    "kind": "pdf",
+    "title": "Left hand joins in (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-31",
+    "lessonId": "mel-m2-l1",
+    "kind": "video",
+    "title": "Left hand joins in (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-32",
+    "lessonId": "mel-m2-l2",
+    "kind": "pdf",
+    "title": "Middle C position (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-33",
+    "lessonId": "mel-m2-l2",
+    "kind": "video",
+    "title": "Middle C position (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-34",
+    "lessonId": "mel-m2-l3",
+    "kind": "pdf",
+    "title": "Steady beat songs (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-35",
+    "lessonId": "mel-m2-l3",
+    "kind": "video",
+    "title": "Steady beat songs (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-36",
+    "lessonId": "mel-m2-l4",
+    "kind": "pdf",
+    "title": "Module Two review (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-37",
+    "lessonId": "mel-m2-l4",
+    "kind": "video",
+    "title": "Module Two review (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-38",
+    "lessonId": "mel-m3-l1",
+    "kind": "pdf",
+    "title": "Crossing over (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-39",
+    "lessonId": "mel-m3-l1",
+    "kind": "video",
+    "title": "Crossing over (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-40",
+    "lessonId": "mel-m3-l2",
+    "kind": "pdf",
+    "title": "Loud and soft (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-41",
+    "lessonId": "mel-m3-l2",
+    "kind": "video",
+    "title": "Loud and soft (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-42",
+    "lessonId": "mel-m3-l3",
+    "kind": "pdf",
+    "title": "Short and smooth notes (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-43",
+    "lessonId": "mel-m3-l3",
+    "kind": "video",
+    "title": "Short and smooth notes (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-44",
+    "lessonId": "mel-m3-l4",
+    "kind": "pdf",
+    "title": "Module Three review (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-45",
+    "lessonId": "mel-m3-l4",
+    "kind": "video",
+    "title": "Module Three review (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-46",
+    "lessonId": "mel-m4-l1",
+    "kind": "pdf",
+    "title": "Both hands together (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-47",
+    "lessonId": "mel-m4-l1",
+    "kind": "video",
+    "title": "Both hands together (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-48",
+    "lessonId": "mel-m4-l2",
+    "kind": "pdf",
+    "title": "Your first duet (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-49",
+    "lessonId": "mel-m4-l2",
+    "kind": "video",
+    "title": "Your first duet (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-50",
+    "lessonId": "mel-m4-l3",
+    "kind": "pdf",
+    "title": "Book One graduation songs (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-51",
+    "lessonId": "mel-m4-l3",
+    "kind": "video",
+    "title": "Book One graduation songs (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-52",
+    "lessonId": "mel-m5-l1",
+    "kind": "pdf",
+    "title": "New hand positions (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-53",
+    "lessonId": "mel-m5-l1",
+    "kind": "video",
+    "title": "New hand positions (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-54",
+    "lessonId": "mel-m5-l2",
+    "kind": "pdf",
+    "title": "Sharps and flats (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-55",
+    "lessonId": "mel-m5-l2",
+    "kind": "video",
+    "title": "Sharps and flats (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-56",
+    "lessonId": "mel-m5-l3",
+    "kind": "pdf",
+    "title": "Swing rhythm (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-57",
+    "lessonId": "mel-m5-l3",
+    "kind": "video",
+    "title": "Swing rhythm (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-58",
+    "lessonId": "mel-m5-l4",
+    "kind": "pdf",
+    "title": "Module Five review (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-59",
+    "lessonId": "mel-m5-l4",
+    "kind": "video",
+    "title": "Module Five review (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-60",
+    "lessonId": "mel-m6-l1",
+    "kind": "pdf",
+    "title": "Simple chords in the left hand (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-61",
+    "lessonId": "mel-m6-l1",
+    "kind": "video",
+    "title": "Simple chords in the left hand (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-62",
+    "lessonId": "mel-m6-l2",
+    "kind": "pdf",
+    "title": "Melody over chords (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-63",
+    "lessonId": "mel-m6-l2",
+    "kind": "video",
+    "title": "Melody over chords (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-64",
+    "lessonId": "mel-m6-l3",
+    "kind": "pdf",
+    "title": "Pop song arrangement (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-65",
+    "lessonId": "mel-m6-l3",
+    "kind": "video",
+    "title": "Pop song arrangement (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-66",
+    "lessonId": "mel-m7-l1",
+    "kind": "pdf",
+    "title": "First improvisation (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-67",
+    "lessonId": "mel-m7-l1",
+    "kind": "video",
+    "title": "First improvisation (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-68",
+    "lessonId": "mel-m7-l2",
+    "kind": "pdf",
+    "title": "Question and answer phrases (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-69",
+    "lessonId": "mel-m7-l2",
+    "kind": "video",
+    "title": "Question and answer phrases (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-70",
+    "lessonId": "mel-m7-l3",
+    "kind": "pdf",
+    "title": "Blues scale (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-71",
+    "lessonId": "mel-m7-l3",
+    "kind": "video",
+    "title": "Blues scale (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-72",
+    "lessonId": "mel-m7-l4",
+    "kind": "pdf",
+    "title": "Module Seven review (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-73",
+    "lessonId": "mel-m7-l4",
+    "kind": "video",
+    "title": "Module Seven review (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-74",
+    "lessonId": "mel-m8-l1",
+    "kind": "pdf",
+    "title": "Playing from a lead sheet (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-75",
+    "lessonId": "mel-m8-l1",
+    "kind": "video",
+    "title": "Playing from a lead sheet (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-76",
+    "lessonId": "mel-m8-l2",
+    "kind": "pdf",
+    "title": "Performance piece (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-77",
+    "lessonId": "mel-m8-l2",
+    "kind": "video",
+    "title": "Performance piece (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-78",
+    "lessonId": "mel-m8-l3",
+    "kind": "pdf",
+    "title": "Book Two graduation songs (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-79",
+    "lessonId": "mel-m8-l3",
+    "kind": "video",
+    "title": "Book Two graduation songs (video)",
+    "url": null,
+    "placeholder": true,
+    "captions": null
+  },
+  {
+    "id": "res-80",
+    "lessonId": "har-m1-l1",
+    "kind": "pdf",
+    "title": "What is a chord? (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-81",
+    "lessonId": "har-m1-l2",
+    "kind": "pdf",
+    "title": "Major and minor (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-82",
+    "lessonId": "har-m1-l3",
+    "kind": "pdf",
+    "title": "Chord symbols (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-83",
+    "lessonId": "har-m1-l4",
+    "kind": "pdf",
+    "title": "Your first chord song (score)",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-84",
+    "lessonId": "not-m1-l1",
+    "kind": "pdf",
+    "title": "Music Notation Theory",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-85",
+    "lessonId": "not-m1-l2",
+    "kind": "pdf",
+    "title": "Beginners Theory",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-86",
+    "lessonId": "not-m1-l3",
+    "kind": "pdf",
+    "title": "Bars and Notes",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-87",
+    "lessonId": "not-m1-l4",
+    "kind": "pdf",
+    "title": "Note Finder",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-88",
+    "lessonId": "not-m1-l5",
+    "kind": "pdf",
+    "title": "Octaves",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-89",
+    "lessonId": "not-m1-l6",
+    "kind": "pdf",
+    "title": "Twinkle Twinkle",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-90",
+    "lessonId": "not-m1-l7",
+    "kind": "pdf",
+    "title": "Jingle Bells",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-91",
+    "lessonId": "not-m1-l8",
+    "kind": "pdf",
+    "title": "Let's Revise",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-92",
+    "lessonId": "not-m1-l9",
+    "kind": "pdf",
+    "title": "Beethoven",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-93",
+    "lessonId": "not-m1-l10",
+    "kind": "pdf",
+    "title": "Ode to Joy",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-94",
+    "lessonId": "not-m1-l11",
+    "kind": "pdf",
+    "title": "The Grand Piano",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-95",
+    "lessonId": "fun-m1-l1",
+    "kind": "pdf",
+    "title": "Intervals",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-96",
+    "lessonId": "fun-m1-l2",
+    "kind": "pdf",
+    "title": "Major Scales with Sharps",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-97",
+    "lessonId": "fun-m1-l3",
+    "kind": "pdf",
+    "title": "Major Scales with Flats",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-98",
+    "lessonId": "fun-m1-l4",
+    "kind": "pdf",
+    "title": "Major Chords",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-99",
+    "lessonId": "cav-m1-l1",
+    "kind": "pdf",
+    "title": "Five-finger warm-up",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-100",
+    "lessonId": "cav-m1-l2",
+    "kind": "pdf",
+    "title": "Thumb crossing drill",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-101",
+    "lessonId": "cav-m1-l3",
+    "kind": "pdf",
+    "title": "Rhythm clapping games",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-102",
+    "lessonId": "exa-m1-l1",
+    "kind": "pdf",
+    "title": "Scales practice sheet",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-103",
+    "lessonId": "exa-m1-l2",
+    "kind": "pdf",
+    "title": "Songs practice sheet",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-104",
+    "lessonId": "exa-m1-l3",
+    "kind": "pdf",
+    "title": "Quick Studies practice sheet",
+    "url": null,
+    "placeholder": true
+  },
+  {
+    "id": "res-105",
+    "lessonId": "exa-m1-l4",
+    "kind": "pdf",
+    "title": "Aural tests practice sheet",
+    "url": null,
+    "placeholder": true
+  }
+]

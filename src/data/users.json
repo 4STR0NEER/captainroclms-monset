@@ -1,0 +1,210 @@
+[
+  {
+    "id": "u-roc",
+    "roles": [
+      "admin",
+      "tutor"
+    ],
+    "displayName": "Captain Roc",
+    "fullName": "Roc Koren",
+    "email": "captainroc@jazzroc.com"
+  },
+  {
+    "id": "u-tom",
+    "roles": [
+      "tutor"
+    ],
+    "displayName": "Tom",
+    "fullName": "Tom",
+    "bio": "Piano tutor. Placeholder bio, to be supplied.",
+    "placeholder": true
+  },
+  {
+    "id": "u-hugo",
+    "roles": [
+      "tutor"
+    ],
+    "displayName": "Hugo",
+    "fullName": "Hugo",
+    "bio": "Piano tutor. Placeholder bio, to be supplied.",
+    "placeholder": true
+  },
+  {
+    "id": "u-kim",
+    "roles": [
+      "parent"
+    ],
+    "displayName": "Kim",
+    "fullName": "Kim (demo parent)",
+    "email": "kim@example.com",
+    "placeholder": true
+  },
+  {
+    "id": "u-oliver",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Oliver",
+    "firstName": "Oliver",
+    "yearGroup": "Year 8",
+    "schoolId": "sch-newport",
+    "tutorId": "u-tom",
+    "parentId": "u-kim",
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-mia",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Mia",
+    "firstName": "Mia",
+    "yearGroup": "Year 6",
+    "schoolId": "sch-stlukes",
+    "tutorId": "u-hugo",
+    "parentId": "u-kim",
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-sam",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Sam",
+    "firstName": "Sam",
+    "yearGroup": "Adult",
+    "schoolId": "sch-home",
+    "tutorId": "u-roc",
+    "parentId": null,
+    "isAdult": true,
+    "placeholder": true
+  },
+  {
+    "id": "u-jack",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Jack",
+    "firstName": "Jack",
+    "yearGroup": "Year 3",
+    "schoolId": "sch-newport",
+    "tutorId": "u-tom",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-isla",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Isla",
+    "firstName": "Isla",
+    "yearGroup": "Year 5",
+    "schoolId": "sch-newport",
+    "tutorId": "u-roc",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-noah",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Noah",
+    "firstName": "Noah",
+    "yearGroup": "Year 4",
+    "schoolId": "sch-stlukes",
+    "tutorId": "u-hugo",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-ava",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Ava",
+    "firstName": "Ava",
+    "yearGroup": "Year 2",
+    "schoolId": "sch-stlukes",
+    "tutorId": "u-hugo",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-leo",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Leo",
+    "firstName": "Leo",
+    "yearGroup": "Year 7",
+    "schoolId": "sch-newport",
+    "tutorId": "u-tom",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-chloe",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Chloe",
+    "firstName": "Chloe",
+    "yearGroup": "Year 9",
+    "schoolId": "sch-stlukes",
+    "tutorId": "u-roc",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-henry",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Henry",
+    "firstName": "Henry",
+    "yearGroup": "Kindergarten",
+    "schoolId": "sch-newport",
+    "tutorId": "u-tom",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-zoe",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Zoe",
+    "firstName": "Zoe",
+    "yearGroup": "Year 6",
+    "schoolId": "sch-stlukes",
+    "tutorId": "u-hugo",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  },
+  {
+    "id": "u-archie",
+    "roles": [
+      "student"
+    ],
+    "displayName": "Archie",
+    "firstName": "Archie",
+    "yearGroup": "Year 4",
+    "schoolId": "sch-newport",
+    "tutorId": "u-roc",
+    "parentId": null,
+    "isAdult": false,
+    "placeholder": true
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "isl-melody",
+    "slug": "melody-island",
+    "name": "Melody Island",
+    "description": "Where every voyage begins. Eight modules across two books take you from your first notes to playing songs with both hands.",
+    "order": 1,
+    "themeColour": "#2E9C8A",
+    "icon": "music",
+    "accessTier": "free"
+  },
+  {
+    "id": "isl-harmony",
+    "slug": "harmony-island",
+    "name": "Harmony Island",
+    "description": "Chords and harmony. Learn how songs are built and start reading chord symbols like a real band pianist.",
+    "order": 2,
+    "themeColour": "#5A7BD8",
+    "icon": "layers",
+    "accessTier": "home"
+  },
+  {
+    "id": "isl-notation",
+    "slug": "notation-island",
+    "name": "Notation Island",
+    "description": "The basics of reading music: bars, notes, octaves and the grand staff.",
+    "order": 3,
+    "themeColour": "#C9894B",
+    "icon": "file-music",
+    "accessTier": "home"
+  },
+  {
+    "id": "isl-fundamentals",
+    "slug": "fundamentals-island",
+    "name": "Island of Music Fundamentals",
+    "description": "Intervals, scales and chords, the maps, skills and awareness to navigate any song. Rumour has it a Jungle of Scales lies further inland.",
+    "order": 4,
+    "themeColour": "#7C9A3D",
+    "icon": "compass",
+    "accessTier": "home"
+  },
+  {
+    "id": "isl-songbook",
+    "slug": "songbook-island",
+    "name": "Songbook Island",
+    "description": "A growing library of pop, jazz, film and classical pieces to play for fun.",
+    "order": 5,
+    "themeColour": "#D46A8C",
+    "icon": "book-open",
+    "accessTier": "taster"
+  },
+  {
+    "id": "isl-tv",
+    "slug": "captains-tv-themes",
+    "name": "Captain's TV Themes",
+    "description": "Fun theme tunes from television, arranged for young players.",
+    "order": 6,
+    "themeColour": "#E08A2E",
+    "icon": "tv",
+    "accessTier": "taster"
+  },
+  {
+    "id": "isl-cave",
+    "slug": "practice-cave",
+    "name": "Captain Roc's Practice Cave",
+    "description": "Warm-ups, finger exercises and practice material to keep your hands in shape.",
+    "order": 7,
+    "themeColour": "#6B5B95",
+    "icon": "mountain",
+    "accessTier": "taster"
+  },
+  {
+    "id": "isl-exam",
+    "slug": "exam-island",
+    "name": "Exam Island",
+    "description": "Preparation for the ABRSM Jazz Piano exams: scales, songs, quick studies and aural tests. Exams are optional, and always an adventure.",
+    "order": 8,
+    "themeColour": "#B8433F",
+    "icon": "award",
+    "accessTier": "member"
+  }
+]

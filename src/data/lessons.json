@@ -1,0 +1,491 @@
+[
+  {
+    "id": "mel-m1-l1",
+    "moduleId": "mel-m1",
+    "title": "Welcome aboard",
+    "order": 1,
+    "type": "reading",
+    "notes": "Start here with a grown-up. Look through the cover page together and read the message to parents."
+  },
+  {
+    "id": "mel-m1-l2",
+    "moduleId": "mel-m1",
+    "title": "Meet the piano",
+    "order": 2,
+    "type": "mixed",
+    "notes": "Find the groups of two and three black keys. They are your map of the keyboard."
+  },
+  {
+    "id": "mel-m1-l3",
+    "moduleId": "mel-m1",
+    "title": "Beginners theory",
+    "order": 3,
+    "type": "mixed",
+    "notes": "Learn the musical alphabet and how notes are named on the keys."
+  },
+  {
+    "id": "mel-m1-l4",
+    "moduleId": "mel-m1",
+    "title": "Your first five songs",
+    "order": 4,
+    "type": "mixed",
+    "notes": "Five short songs to play with one hand. Take them slowly and say the note names out loud."
+  },
+  {
+    "id": "mel-m1-l5",
+    "moduleId": "mel-m1",
+    "title": "Rocky the Robot and friends",
+    "order": 5,
+    "type": "song",
+    "notes": "Play along with the videos. Keep a steady beat, like a robot!"
+  },
+  {
+    "id": "mel-m1-l6",
+    "moduleId": "mel-m1",
+    "title": "Off to the Zoo",
+    "order": 6,
+    "type": "song",
+    "notes": "Two new songs. Watch your fingers stay curved."
+  },
+  {
+    "id": "mel-m1-l7",
+    "moduleId": "mel-m1",
+    "title": "Dancing Fingers and Fruit Loops",
+    "order": 7,
+    "type": "song",
+    "notes": "These pieces move your hand around the keyboard. Practise each one three times a day."
+  },
+  {
+    "id": "mel-m1-l8",
+    "moduleId": "mel-m1",
+    "title": "Song of Joy and bonus songs",
+    "order": 8,
+    "type": "song",
+    "notes": "Your first famous classical melody, plus two bonus songs from Captain Roc."
+  },
+  {
+    "id": "mel-m2-l1",
+    "moduleId": "mel-m2",
+    "title": "Left hand joins in",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m2-l2",
+    "moduleId": "mel-m2",
+    "title": "Middle C position",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m2-l3",
+    "moduleId": "mel-m2",
+    "title": "Steady beat songs",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m2-l4",
+    "moduleId": "mel-m2",
+    "title": "Module Two review",
+    "order": 4,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m3-l1",
+    "moduleId": "mel-m3",
+    "title": "Crossing over",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m3-l2",
+    "moduleId": "mel-m3",
+    "title": "Loud and soft",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m3-l3",
+    "moduleId": "mel-m3",
+    "title": "Short and smooth notes",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m3-l4",
+    "moduleId": "mel-m3",
+    "title": "Module Three review",
+    "order": 4,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m4-l1",
+    "moduleId": "mel-m4",
+    "title": "Both hands together",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m4-l2",
+    "moduleId": "mel-m4",
+    "title": "Your first duet",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m4-l3",
+    "moduleId": "mel-m4",
+    "title": "Book One graduation songs",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m5-l1",
+    "moduleId": "mel-m5",
+    "title": "New hand positions",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m5-l2",
+    "moduleId": "mel-m5",
+    "title": "Sharps and flats",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m5-l3",
+    "moduleId": "mel-m5",
+    "title": "Swing rhythm",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m5-l4",
+    "moduleId": "mel-m5",
+    "title": "Module Five review",
+    "order": 4,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m6-l1",
+    "moduleId": "mel-m6",
+    "title": "Simple chords in the left hand",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m6-l2",
+    "moduleId": "mel-m6",
+    "title": "Melody over chords",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m6-l3",
+    "moduleId": "mel-m6",
+    "title": "Pop song arrangement",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m7-l1",
+    "moduleId": "mel-m7",
+    "title": "First improvisation",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m7-l2",
+    "moduleId": "mel-m7",
+    "title": "Question and answer phrases",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m7-l3",
+    "moduleId": "mel-m7",
+    "title": "Blues scale",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m7-l4",
+    "moduleId": "mel-m7",
+    "title": "Module Seven review",
+    "order": 4,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m8-l1",
+    "moduleId": "mel-m8",
+    "title": "Playing from a lead sheet",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m8-l2",
+    "moduleId": "mel-m8",
+    "title": "Performance piece",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "mel-m8-l3",
+    "moduleId": "mel-m8",
+    "title": "Book Two graduation songs",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content is behind the current site password and has not been supplied yet."
+  },
+  {
+    "id": "har-m1-l1",
+    "moduleId": "har-m1",
+    "title": "What is a chord?",
+    "order": 1,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content not supplied yet."
+  },
+  {
+    "id": "har-m1-l2",
+    "moduleId": "har-m1",
+    "title": "Major and minor",
+    "order": 2,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content not supplied yet."
+  },
+  {
+    "id": "har-m1-l3",
+    "moduleId": "har-m1",
+    "title": "Chord symbols",
+    "order": 3,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content not supplied yet."
+  },
+  {
+    "id": "har-m1-l4",
+    "moduleId": "har-m1",
+    "title": "Your first chord song",
+    "order": 4,
+    "type": "mixed",
+    "placeholder": true,
+    "notes": "Placeholder lesson. Real content not supplied yet."
+  },
+  {
+    "id": "not-m1-l1",
+    "moduleId": "not-m1",
+    "title": "Music Notation Theory",
+    "order": 1,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l2",
+    "moduleId": "not-m1",
+    "title": "Beginners Theory",
+    "order": 2,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l3",
+    "moduleId": "not-m1",
+    "title": "Bars and Notes",
+    "order": 3,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l4",
+    "moduleId": "not-m1",
+    "title": "Note Finder",
+    "order": 4,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l5",
+    "moduleId": "not-m1",
+    "title": "Octaves",
+    "order": 5,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l6",
+    "moduleId": "not-m1",
+    "title": "Twinkle Twinkle",
+    "order": 6,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l7",
+    "moduleId": "not-m1",
+    "title": "Jingle Bells",
+    "order": 7,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l8",
+    "moduleId": "not-m1",
+    "title": "Let's Revise",
+    "order": 8,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l9",
+    "moduleId": "not-m1",
+    "title": "Beethoven",
+    "order": 9,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l10",
+    "moduleId": "not-m1",
+    "title": "Ode to Joy",
+    "order": 10,
+    "type": "reading"
+  },
+  {
+    "id": "not-m1-l11",
+    "moduleId": "not-m1",
+    "title": "The Grand Piano",
+    "order": 11,
+    "type": "reading"
+  },
+  {
+    "id": "fun-m1-l1",
+    "moduleId": "fun-m1",
+    "title": "Intervals",
+    "order": 1,
+    "type": "reading"
+  },
+  {
+    "id": "fun-m1-l2",
+    "moduleId": "fun-m1",
+    "title": "Major Scales with Sharps",
+    "order": 2,
+    "type": "reading"
+  },
+  {
+    "id": "fun-m1-l3",
+    "moduleId": "fun-m1",
+    "title": "Major Scales with Flats",
+    "order": 3,
+    "type": "reading"
+  },
+  {
+    "id": "fun-m1-l4",
+    "moduleId": "fun-m1",
+    "title": "Major Chords",
+    "order": 4,
+    "type": "reading"
+  },
+  {
+    "id": "cav-m1-l1",
+    "moduleId": "cav-m1",
+    "title": "Five-finger warm-up",
+    "order": 1,
+    "type": "exercise",
+    "placeholder": true,
+    "notes": "Placeholder practice material."
+  },
+  {
+    "id": "cav-m1-l2",
+    "moduleId": "cav-m1",
+    "title": "Thumb crossing drill",
+    "order": 2,
+    "type": "exercise",
+    "placeholder": true,
+    "notes": "Placeholder practice material."
+  },
+  {
+    "id": "cav-m1-l3",
+    "moduleId": "cav-m1",
+    "title": "Rhythm clapping games",
+    "order": 3,
+    "type": "exercise",
+    "placeholder": true,
+    "notes": "Placeholder practice material."
+  },
+  {
+    "id": "exa-m1-l1",
+    "moduleId": "exa-m1",
+    "title": "Scales",
+    "order": 1,
+    "type": "exam",
+    "notes": "Marked out of 21."
+  },
+  {
+    "id": "exa-m1-l2",
+    "moduleId": "exa-m1",
+    "title": "Songs",
+    "order": 2,
+    "type": "exam",
+    "notes": "Three songs, each marked out of 30."
+  },
+  {
+    "id": "exa-m1-l3",
+    "moduleId": "exa-m1",
+    "title": "Quick Studies",
+    "order": 3,
+    "type": "exam",
+    "notes": "Sight reading or playing by ear, plus an improvised response. Marked out of 21."
+  },
+  {
+    "id": "exa-m1-l4",
+    "moduleId": "exa-m1",
+    "title": "Aural tests",
+    "order": 4,
+    "type": "exam",
+    "notes": "Clap the pulse, clap back rhythms, sing back, and question and answer playing. Marked out of 18."
+  }
+]

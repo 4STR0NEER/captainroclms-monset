@@ -1,0 +1,239 @@
+[
+  {
+    "id": "song-1",
+    "collection": "songbook",
+    "title": "Fly Me to the Moon",
+    "style": "jazz",
+    "level": 3,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-2",
+    "collection": "songbook",
+    "title": "Imagine",
+    "style": "pop",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-3",
+    "collection": "songbook",
+    "title": "I'm Still Standing",
+    "style": "pop",
+    "level": 3,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-4",
+    "collection": "songbook",
+    "title": "Mad World",
+    "style": "pop",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-mad-world-ed-wells",
+    "collection": "songbook",
+    "title": "Mad World (Ed Wells version)",
+    "style": "pop",
+    "level": 4,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "graduate": "Ed Wells",
+    "placeholder": true
+  },
+  {
+    "id": "song-5",
+    "collection": "songbook",
+    "title": "You've Got a Friend in Me",
+    "style": "film",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-6",
+    "collection": "songbook",
+    "title": "Wonderful World",
+    "style": "jazz",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-7",
+    "collection": "songbook",
+    "title": "Mah Na Mah Na",
+    "style": "pop",
+    "level": 1,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-8",
+    "collection": "songbook",
+    "title": "Unchained Melody",
+    "style": "pop",
+    "level": 3,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-9",
+    "collection": "songbook",
+    "title": "In the Mood",
+    "style": "jazz",
+    "level": 3,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-10",
+    "collection": "songbook",
+    "title": "Hey Jude",
+    "style": "pop",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-11",
+    "collection": "songbook",
+    "title": "Piano Man",
+    "style": "pop",
+    "level": 4,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-12",
+    "collection": "songbook",
+    "title": "Miss You",
+    "style": "pop",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-13",
+    "collection": "songbook",
+    "title": "Turkish March (Mozart)",
+    "style": "classical",
+    "level": 4,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-14",
+    "collection": "songbook",
+    "title": "Concerning Hobbits",
+    "style": "film",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-15",
+    "collection": "songbook",
+    "title": "Spiderman Theme",
+    "style": "film",
+    "level": 1,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "song-16",
+    "collection": "songbook",
+    "title": "Moonlight Sonata",
+    "style": "classical",
+    "level": 3,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "tv-1",
+    "collection": "tv-themes",
+    "title": "Roger Ramjet",
+    "description": "A bouncy, heroic march from a cartoon much loved by Australian kids.",
+    "style": "tv",
+    "level": 1,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "tv-2",
+    "collection": "tv-themes",
+    "title": "Drunken Sailor (SpongeBob)",
+    "description": "The old sea shanty, a perfect fit for Captain Roc’s crew.",
+    "style": "tv",
+    "level": 1,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "tv-3",
+    "collection": "tv-themes",
+    "title": "Inspector Gadget",
+    "description": "A sneaky, tiptoeing theme with lots of staccato.",
+    "style": "tv",
+    "level": 1,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "tv-4",
+    "collection": "tv-themes",
+    "title": "Bare Necessities",
+    "description": "A relaxed, swinging tune that teaches a laid-back groove.",
+    "style": "tv",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "tv-5",
+    "collection": "tv-themes",
+    "title": "The Simpsons Theme",
+    "description": "A lively theme full of surprising jumps.",
+    "style": "tv",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  },
+  {
+    "id": "tv-6",
+    "collection": "tv-themes",
+    "title": "The Flintstones Theme",
+    "description": "A jazzy, walking theme from the stone age.",
+    "style": "tv",
+    "level": 2,
+    "scoreUrl": null,
+    "videoUrl": null,
+    "placeholder": true
+  }
+]

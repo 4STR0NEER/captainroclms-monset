@@ -1,0 +1,28 @@
+[
+  {
+    "id": "exi-1",
+    "parentFirstName": "Jane",
+    "parentLastName": "Example",
+    "childFirstName": "Ruby",
+    "lastGrade": "Grade 1",
+    "lastExamDate": "2025-11-20",
+    "email": "jane@example.com",
+    "message": "Ruby would love to try Grade 2 next year.",
+    "status": "new",
+    "createdDaysAgo": 4,
+    "placeholder": true
+  },
+  {
+    "id": "exi-2",
+    "parentFirstName": "Mark",
+    "parentLastName": "Sample",
+    "childFirstName": "Ethan",
+    "lastGrade": "None yet",
+    "lastExamDate": null,
+    "email": "mark@example.com",
+    "message": "Is Initial grade a good starting point?",
+    "status": "contacted",
+    "createdDaysAgo": 12,
+    "placeholder": true
+  }
+]
