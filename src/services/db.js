@@ -94,6 +94,12 @@ export function remove(table, id) {
   return respond(true)
 }
 
+export function removeWhere(table, where) {
+  db[table] = db[table].filter((r) => !where(r))
+  persist()
+  return respond(true)
+}
+
 // Progress has no id: one row per student + lesson (a composite key in Supabase).
 export function upsertProgress(studentId, lessonId, status) {
   const row = db.progress.find((p) => p.studentId === studentId && p.lessonId === lessonId)

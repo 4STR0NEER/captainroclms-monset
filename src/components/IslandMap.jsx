@@ -90,7 +90,8 @@ function stateLine(island) {
   }
 }
 
-export default function IslandMap({ islands, currentSlug }) {
+// linkTo(island) returns where an island goes when clicked; pass null for a read-only map (parents, tutors).
+export default function IslandMap({ islands, currentSlug, linkTo = (island) => `/app/island/${island.slug}` }) {
   const rootRef = useRef(null)
   const scrollRef = useRef(null)
   const ordered = [...islands].sort((a, b) => a.order - b.order)
@@ -187,12 +188,7 @@ export default function IslandMap({ islands, currentSlug }) {
             const labelW = Math.max(name.length * 9.6, sub.length * 7.4) + 32
             const labelY = y + r * 0.86 + 18
             return (
-              <Link
-                key={island.id}
-                to={`/app/island/${island.slug}`}
-                className="island-link"
-                aria-label={`${name}: ${sub}`}
-              >
+              <IslandWrap key={island.id} to={linkTo?.(island)} label={`${name}: ${sub}`}>
                 <g className="island-pop">
                   <path d={coastline(x, y, r * 1.45, seed)} fill="#eaf4f2" fillOpacity="0.1" />
                   <g className="island-land">
@@ -220,7 +216,7 @@ export default function IslandMap({ islands, currentSlug }) {
                     </text>
                   </g>
                 </g>
-              </Link>
+              </IslandWrap>
             )
           })}
 
@@ -284,3 +280,17 @@ function TreasureMark({ x, y }) {
   )
 }
 
+function IslandWrap({ to, label, children }) {
+  if (!to) {
+    return (
+      <g role="img" aria-label={label}>
+        {children}
+      </g>
+    )
+  }
+  return (
+    <Link to={to} className="island-link" aria-label={label}>
+      {children}
+    </Link>
+  )
+}

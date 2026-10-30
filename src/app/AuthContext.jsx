@@ -17,7 +17,7 @@ function readSession() {
 }
 
 export function AuthProvider({ children }) {
-  const [session, setSession] = useState(readSession) // { userId, role }
+  const [session, setSession] = useState(readSession) // { userId, role, viaParentId? }
   const [user, setUser] = useState(null)
   // Derived, not stored: we're loading whenever the session points at a user we haven't fetched yet
   const loading = Boolean(session) && user?.id !== session.userId
@@ -27,8 +27,9 @@ export function AuthProvider({ children }) {
     else setUser(null)
   }, [session])
 
-  function signIn(userId, role) {
-    const next = { userId, role }
+  // viaParentId: a parent handing the tablet to their child, so the child view can hand it back
+  function signIn(userId, role, viaParentId = null) {
+    const next = { userId, role, viaParentId }
     localStorage.setItem(SESSION_KEY, JSON.stringify(next))
     setSession(next)
   }
@@ -38,7 +39,7 @@ export function AuthProvider({ children }) {
     setSession(null)
   }
 
-  const value = { user: loading ? null : user, role: session?.role ?? null, loading, signIn, signOut }
+  const value = { user: loading ? null : user, role: session?.role ?? null, viaParentId: session?.viaParentId ?? null, loading, signIn, signOut }
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 

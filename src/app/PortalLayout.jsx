@@ -1,5 +1,5 @@
 import { NavLink, Outlet, ScrollRestoration, useLocation, useNavigate } from 'react-router'
-import { LogOut, RotateCcw } from 'lucide-react'
+import { LogOut, RotateCcw, Users } from 'lucide-react'
 import Logo from '../components/Logo'
 import { ROLE_HOME, useAuth } from './AuthContext'
 import { resetDemo } from '../services/db'
@@ -12,7 +12,7 @@ const NAV = {
     { to: '/app/badges', label: 'Badges' },
   ],
   parent: [
-    { to: '/parent', label: 'Overview', end: true },
+    { to: '/parent', label: 'Overview', end: true, alsoActive: ['/parent/child'] },
     { to: '/parent/billing', label: 'Billing' },
     { to: '/parent/profiles', label: 'Child profiles' },
   ],
@@ -30,7 +30,7 @@ const navClass = (active) =>
   `shrink-0 rounded-full px-4 py-2 font-bold no-underline transition-colors ${active ? 'bg-deep text-key' : 'text-deep hover:bg-deep/5'}`
 
 export default function PortalLayout() {
-  const { user, role, signOut } = useAuth()
+  const { user, role, viaParentId, signIn, signOut } = useAuth()
   const navigate = useNavigate()
   const { pathname } = useLocation()
 
@@ -55,6 +55,19 @@ export default function PortalLayout() {
           <Logo to={role ? ROLE_HOME[role] : '/'} />
           {user && (
             <div className="flex items-center gap-2">
+              {viaParentId && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    signIn(viaParentId, 'parent')
+                    navigate('/parent')
+                  }}
+                  className="btn btn-quiet px-3"
+                >
+                  <Users aria-hidden size={20} />
+                  <span className="sr-only sm:not-sr-only">Parent view</span>
+                </button>
+              )}
               <span className="hidden text-right leading-tight sm:block">
                 <span className="block font-bold">{user.displayName}</span>
                 <span className="block text-sm capitalize text-deep-soft">{role}</span>
