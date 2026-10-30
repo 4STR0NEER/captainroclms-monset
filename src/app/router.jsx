@@ -5,6 +5,13 @@ import RequireRole from './RequireRole'
 import Login from '../features/shared/Login'
 import NotFound from '../features/shared/NotFound'
 import ComingSoon from '../features/shared/ComingSoon'
+import Home from '../features/public/Home'
+import About from '../features/public/About'
+import Courses from '../features/public/Courses'
+import ExamIsland from '../features/public/ExamIsland'
+import { NewsList, NewsPost } from '../features/public/News'
+import Contact from '../features/public/Contact'
+import Privacy from '../features/public/Privacy'
 
 // Pages not built yet render <ComingSoon>; each phase swaps a stub for the real page.
 const soon = (title, phase) => <ComingSoon title={title} phase={phase} />
@@ -13,14 +20,14 @@ export const router = createBrowserRouter([
   {
     element: <PublicLayout />,
     children: [
-      { path: '/', element: soon('Home', 2) },
-      { path: '/about', element: soon('About Captain Roc', 2) },
-      { path: '/courses', element: soon('Courses and pricing', 2) },
-      { path: '/exam-island', element: soon('Exam Island', 2) },
-      { path: '/news', element: soon('News', 2) },
-      { path: '/news/:slug', element: soon('News post', 2) },
-      { path: '/contact', element: soon('Contact', 2) },
-      { path: '/privacy', element: soon('Privacy policy', 2) },
+      { path: '/', element: <Home /> },
+      { path: '/about', element: <About /> },
+      { path: '/courses', element: <Courses /> },
+      { path: '/exam-island', element: <ExamIsland /> },
+      { path: '/news', element: <NewsList /> },
+      { path: '/news/:slug', element: <NewsPost /> },
+      { path: '/contact', element: <Contact /> },
+      { path: '/privacy', element: <Privacy /> },
       { path: '/login', element: <Login /> },
       { path: '*', element: <NotFound /> },
     ],

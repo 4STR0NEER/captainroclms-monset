@@ -16,7 +16,7 @@ The curriculum is a pirate and island adventure. Captain Roc guides students acr
 
 ## Design direction: "sea chart at golden hour"
 - The **island map** is the one bold, memorable element. Everything else is calm and highly readable.
-- Tokens live in `src/styles/index.css`: deep `#0E2A47`, foam `#EAF4F2`, lagoon `#13716F`, doubloon `#F2B53A` (rewards only), buoy `#D93F4C` (locked, errors, live timer), key `#FFFFFF`.
+- Tokens live in `src/styles/index.css`: deep `#0E2A47`, foam `#EAF4F2`, lagoon `#13716F`, doubloon `#F2B53A` (rewards only), buoy `#C8323F` (locked, errors, live timer), key `#FFFFFF`.
 - Type: Young Serif for headings, Atkinson Hyperlegible for everything else.
 - Motion only marks a change of state (unlock, complete, streak). anime.js for choreographed sequences, Motion for component state, CSS for hovers. Respect `prefers-reduced-motion`.
 - Avoid: generic SaaS card grids, cream with terracotta, all-caps eyebrow labels, arrows on every button, any copyrighted characters or logos.

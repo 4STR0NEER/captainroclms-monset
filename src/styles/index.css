@@ -8,7 +8,7 @@
   --color-foam: #eaf4f2; /* page background */
   --color-lagoon: #13716f; /* primary actions and links (5.8:1 on white) */
   --color-doubloon: #f2b53a; /* rewards only, never text on light */
-  --color-buoy: #d93f4c; /* locked, errors, live timer */
+  --color-buoy: #c8323f; /* locked, errors, live timer (5.3:1 on white) */
   --color-key: #ffffff; /* cards and the lesson surface */
 
   /* Tints of the tokens above, not new colours */
@@ -110,24 +110,10 @@
   .btn-quiet:hover {
     background: rgb(14 42 71 / 0.05);
   }
-  /* Piano-key rule: a thin row of black-key marks used to divide sections */
+  /* Piano-key rule: one octave of keys repeated as a section divider */
   .key-rule {
-    height: 10px;
-    background:
-      repeating-linear-gradient(
-        90deg,
-        var(--color-deep) 0 10px,
-        transparent 10px 18px,
-        var(--color-deep) 18px 28px,
-        transparent 28px 44px,
-        var(--color-deep) 44px 54px,
-        transparent 54px 62px,
-        var(--color-deep) 62px 72px,
-        transparent 72px 80px,
-        var(--color-deep) 80px 90px,
-        transparent 90px 106px
-      );
-    opacity: 0.85;
-    border-radius: 0 0 3px 3px;
+    height: 22px;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='168' height='22'><rect width='168' height='22' fill='%23ffffff'/><path d='M24 0v22M48 0v22M72 0v22M96 0v22M120 0v22M144 0v22M168 0v22' stroke='%230e2a47' stroke-opacity='.25'/><g fill='%230e2a47'><rect x='16' width='15' height='13' rx='1.5'/><rect x='40' width='15' height='13' rx='1.5'/><rect x='88' width='15' height='13' rx='1.5'/><rect x='112' width='15' height='13' rx='1.5'/><rect x='136' width='15' height='13' rx='1.5'/></g></svg>") repeat-x;
+    border-block: 1px solid var(--color-line);
   }
 }
