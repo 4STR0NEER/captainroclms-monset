@@ -150,6 +150,22 @@
     transform: translateY(-5px) rotate(-3deg);
   }
 }
+/* Home hero: the ship sails slowly across the lagoon */
+.hero-ship {
+  animation: sail-across 48s linear infinite;
+}
+.hero-ship .ship-bob {
+  animation: ship-bob 3.2s ease-in-out infinite;
+}
+@keyframes sail-across {
+  from {
+    transform: translateX(-6rem);
+  }
+  to {
+    transform: translateX(calc(100vw + 2rem));
+  }
+}
+
 /* Practice timer wheel turns while the clock runs */
 .ship-wheel.is-turning {
   animation: wheel-turn 6s linear infinite;
@@ -162,7 +178,12 @@
 
 @media (prefers-reduced-motion: reduce) {
   .island-map .ship-bob,
+  .hero-ship .ship-bob,
   .ship-wheel.is-turning {
     animation: none;
+  }
+  .hero-ship {
+    animation: none;
+    transform: translateX(min(70vw, 52rem));
   }
 }

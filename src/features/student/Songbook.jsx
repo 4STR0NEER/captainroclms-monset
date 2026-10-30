@@ -45,13 +45,12 @@ export default function Songbook() {
       <h1 className="text-4xl sm:text-5xl">Songbook</h1>
       <p className="mt-3 text-lg text-deep-soft">Pop, jazz, film and classical pieces to play for fun. More songs wash ashore all the time.</p>
 
-      <div role="tablist" aria-label="Collection" className="mt-8 inline-flex rounded-full bg-key p-1 shadow-[var(--shadow-lift)]">
+      <div role="group" aria-label="Collection" className="mt-8 inline-flex rounded-full bg-key p-1 shadow-[var(--shadow-lift)]">
         {COLLECTIONS.map((c) => (
           <button
             key={c.id}
-            role="tab"
             type="button"
-            aria-selected={collection === c.id}
+            aria-pressed={collection === c.id}
             onClick={() => setCollection(c.id)}
             className={`relative min-h-12 rounded-full px-5 font-bold transition-colors ${collection === c.id ? 'text-key' : 'text-deep hover:bg-foam'}`}
           >

@@ -5,6 +5,7 @@ import { Award, MapPin, Music, Sailboat, Users } from 'lucide-react'
 import CausticsBackground from '../../components/kokonut/CausticsBackground'
 import { Mark, MarkerText } from '../../components/kokonut/MarkerText'
 import QuoteDeck from '../../components/vengeance/QuoteDeck'
+import { PirateShipIcon } from '../../components/PirateShip'
 import { useAsync } from '../../utils/useAsync'
 import { getTestimonials } from '../../services/site'
 import { C_MAJOR, playNote } from '../../utils/piano'
@@ -69,6 +70,14 @@ export default function Home() {
   return (
     <>
       <CausticsBackground className="border-b border-line">
+        {/* Captain Roc's ship drifts across the lagoon. Decorative, and parked for reduced-motion users. */}
+        <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-3 h-16 overflow-hidden">
+          <div className="hero-ship absolute bottom-0 left-0">
+            <div className="ship-bob">
+              <PirateShipIcon className="h-16 w-14" />
+            </div>
+          </div>
+        </div>
         <div ref={heroRef} className="mx-auto grid min-h-[min(640px,85dvh)] max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-[1.4fr_1fr]">
           <div>
             <h1 className="text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
